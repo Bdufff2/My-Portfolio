@@ -1,18 +1,30 @@
+* {
+    font-family: "Quicksand",sans-serif;
+}
 .navbar {
-    background-color: dimGray;
+    background-color: #424242;
     color: white;
 }
-/* .panel-footer {
-    background-color: dimGray;
-    color: white;
-} */
 #nav-txt {
     color: white;
 }
-img {
+.media-object {
     border-radius: 50%;
 }
 .wrapper {
     margin: 0 auto;
     width: 960px;
+}
+.headline {
+background: -webkit-linear-gradient(#00BFA5 50%, #90ee90);
+    background-image: -webkit-linear-gradient(top, rgb(0, 191, 165) 50%, rgb(144, 238, 144));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    color: #00BFA5;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
