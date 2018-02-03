@@ -1,0 +1,18 @@
+.navbar {
+    background-color: dimGray;
+    color: white;
+}
+/* .panel-footer {
+    background-color: dimGray;
+    color: white;
+} */
+#nav-txt {
+    color: white;
+}
+img {
+    border-radius: 50%;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
