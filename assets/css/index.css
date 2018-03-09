@@ -12,7 +12,7 @@ a {
     color: black;
 }
 a:hover {
-    color: #00BFA5;
+    color: white;
     
 }
 section {
@@ -57,6 +57,10 @@ hr {
 /* --------------------- */
 /* Header section styling */
 /* --------------------- */
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 #author {
     justify-content: center;
@@ -64,7 +68,6 @@ hr {
     display: block;
     color: white;
     padding: 30px;
-    /* padding-top: 80px; */
 }
 
 #header {
@@ -85,10 +88,20 @@ hr {
     cursor: pointer;
     /* text-decoration: gray; */
 }
-.icon {
-    margin-left: 10px;
-    margin-right: 10px;
+.arrow-icon {
+    position: relative;
+    -webkit-animation: downarrow .6s infinite ease-in alternate;
+    animation: downarrow .6s infinite ease-in alternate;
 }
+@keyframes downarrow {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 25px;
+    }
+}
+
 
 /* --------------------- */
 /* About Me styling */
@@ -98,7 +111,7 @@ hr {
     /* background-image: url("./../img/test3.jpeg"); */
     background-color: #031035;
     padding: 50px;
-    min-height: 85vh;
+    min-height: 100vh;
     
     /* font-size: 20px; */
 }
@@ -143,10 +156,11 @@ hr {
 /* --------------------- */
 
 #experience {
+    background-image: url("./../img/coffee.jpg");
     display: block;
     justify-content: center;
     align-items: center;
-    /* background-image: url("./../img/paper.jpeg"); */
+    /* background-image: url("./../img/zigzag.png"); */
     margin: 0 auto;
     min-height: 100vh;
    
@@ -172,6 +186,8 @@ hr {
 
 #personal-projects {
     min-height: 80vh;
+    background-image: url("./../img/create.jpeg");
+
 }
 .projects-title {
     color: rgb(15, 15, 15);
@@ -233,11 +249,11 @@ footer {
 }
 
 #up-btn {
-    color: white;
     margin: 10px;
-}
-#up-btn:hover{
     color: #00BFA5;
-    
+}
+
+#up-btn:hover{
+    color: white;
     text-decoration: none;
-  }
+}
