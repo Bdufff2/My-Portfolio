@@ -37,8 +37,9 @@ hr {
     justify-content: center;
     align-items: center
 }
-.title-2 {
+.title-black {
     color:rgb(19, 19, 19);
+    margin-bottom: 10px;
     text-align: center;
     font-size: 30px;    
     min-height: 20vh;
@@ -185,13 +186,13 @@ hr {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 85%;
 }
 
 .project-panel {
     height: 400px;
     width: 500px;
-    margin: 20px 20px 20px 20px;
+    margin: 0px 10px 20px 10px;
     background-size: cover;
     border-width: 1px;
     border-style: solid;
