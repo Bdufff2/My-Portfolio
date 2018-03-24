@@ -155,9 +155,8 @@ hr {
     align-items: center;
     margin: 0 auto;
     min-height: 100vh;
-   
-
 } 
+
 #resume {
     width: 65vw;
     height: 85vh;  
@@ -208,7 +207,7 @@ hr {
 
 .project-image {
     width: 100%;
-    height: 60%;
+    height: 65%;
     overflow: hidden;
 }
 
@@ -220,11 +219,16 @@ hr {
 
 .project-content {
     margin: 5px;
-    display: block;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     line-height: 1.5;
 }
+/* .project-link {
+    
+} */
 
 /* --------------------- */
 /* Contact Me styling */
@@ -260,4 +264,38 @@ footer {
 #up-btn:hover{
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .media-object {
+        display: none;
+    }
+    .bio {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .project-panel {
+        margin: 0 auto;
+        height: 70%;
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+    #projects {
+        display: block;
+        margin-top: 10px auto;
+        /* align-content: center; */
+        justify-items: center;
+    }
+
+    .project-img{
+        min-height: 250px;;
+    }
+    .wrapper{
+        margin: 0 auto;
+    }
+    #resume{
+        width: 90vw;
+    }
+
 }
