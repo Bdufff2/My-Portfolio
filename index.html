@@ -14,67 +14,81 @@
 </head>
 
 <body>
+    <section class="fixed">
+        <!-- Intro -->
+        <section id="header">
+            <div class="my-links">
+                <a href="https://github.com/Bdufff2" target="_blank" title="View my profile on GitHub">
+                    <span class="icon fab fa-github fa-3x"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/duff-brian" target="_blank" title="Find me on LinkedIn">
+                    <span class="icon fab fa-linkedin fa-3x"></span>
+                </a>
+            </div>
 
-    <!-- Intro -->
-    <section id="header">
-        <div class="my-links">
-            <a href="https://github.com/Bdufff2" target="_blank"><span class="icon fab fa-github fa-3x"></span></a>
-            <a href="https://www.linkedin.com/in/duff-brian" target="_blank"><span class="icon fab fa-linkedin fa-3x"></span></a>
-        </div>
-
-        <h1 id="author">Brian Duff</h1>
-        <!-- <h2 class="title green-fade">
+            <h1 id="author">Brian Duff</h1>
+            <!-- <h2 class="title green-fade">
             <em>San Diego Based</em>
         </h2> -->
-        <h2 class="title">Web Developer</h2>
-        <br />
-        <br />
-        <div class="animated" id="arrow">
-            <a href="#about-me">
-                <span class="arrow-icon fas fa-angle-double-down fa-4x"></span>
-            </a>
-        </div>
+            <h2 class="title">Web Developer</h2>
+            <br />
+            <br />
+            <div class="animated" id="arrow">
+                <a href="#about-me">
+                    <span class="arrow-icon fas fa-angle-double-down fa-4x"></span>
+                </a>
+            </div>
 
-    </section>
-    <!-- About Me -->
-    <section id="about-me">
-        <div class="title">
-            <h3>About Me</h3>
-        </div>
-        <div class="wrapper">
-            <div class="media-object">
-                <div class="media-left">
+        </section>
+        <!-- About Me -->
+        <section id="about-me">
+            <div class="title">
+                <h3>About Me</h3>
+            </div>
+            <div class="wrapper">
+                <div class="media-object">
+                    <div class="media-left">
                         <img class="media-object" src="assets/img/me.jpg" alt="headshot">
+                    </div>
+                </div>
+                <div class="bio">
+                    <div id="panel-1">
+                        <p class="green-fade">Hello,</p>
+                        <br/>
+                        <p class="center-text">My name is
+                            <span class="green-fade">Brian Duff</span> and I am a Full-Stack Developer based out of
+                            <span class="green-fade">San Diego, </span> <span class="green-fade">California</span>. In everything I create I aim to find a balance between artistic expression
+                            and technology to create engaging digital experiences. I have a background in
+                            <span class="green-fade">business</span>
+                            <span class="green-fade">analysis</span> and I bring that sense of end-user oriented mentality into all of my work.</p>
+                        </p>
+                    </div>
+                    <br/>
+                    <div id="panel-2">
+                        <span class="fas fa-code fa-1x green-fade"></span>
+                        <span class="fab fa-html5 fa-2x"></span>
+                        <span class="fab fa-css3-alt fa-2x"></span>
+                        <span class="fab fa-js-square fa-2x"></span>
+                        <span class="fab fa-node-js fa-2x"></span>
+                        <span class="fab fa-react fa-2x"></span>
+                        <span class="fas fa-code fa-1x green-fade"></span>
+                    </div>
+                    <br/>
+                    <div id="panel-3">
+                        <p>I have experience working with a number of different web technologies and I am constantly working
+                            to learn and stay on top of new and emerging trends in tech. I am a
+                            <span class="green-fade">MERN</span> stack developer proficient with
+                            <span class="green-fade">MongoDB</span>,
+                            <span class="green-fade">MySQL</span>,
+                            <span class="green-fade">Express</span>,
+                            <span class="green-fade">React</span> and
+                            <span class="green-fade">Node</span>. I am also familiar working within content management systems such as Wordpress.
+                            My goal is to continue to keep my skills sharp as I grow and expand my repertoire as a developer.</p>
+                    </div>
                 </div>
             </div>
-            <div class="bio">
-                <div id="panel-1">
-                    <p>Hello,</p>
-                    <!-- <br/> -->
-                    <p>My name is
-                        <span class="green-fade">Brian Duff</span> and I am a Full-Stack Developer based out of
-                        <span class="green-fade">San Diego, CA</span>. In everything I create I aim to find a balance between artistic
-                        expression and technical functionality
-                    </p>
-                </div>
-                <br/>
-                <div id="panel-2">
-                    <span class="fas fa-code fa-1x green-fade"></span>
-                    <span class="fab fa-html5 fa-2x"></span>
-                    <span class="fab fa-css3-alt fa-2x"></span>
-                    <span class="fab fa-js-square fa-2x"></span>
-                    <span class="fab fa-node-js fa-2x"></span>
-                    <span class="fab fa-react fa-2x"></span>
-                    <span class="fas fa-code fa-1x green-fade"></span>
-                </div>
-                <br/>
-                <div id="panel-3">
-                    <p>I have a background in <span class="green-fade">business analysis</span> and I bring that sense of end-user oriented mentality into my work.</p>
-                </div>
-            </div>
-        </div>
+        </section>
     </section>
-
     <!-- Work experience -->
     <section id="experience">
         <div class="title-2">
@@ -99,13 +113,17 @@
                     <img class="project-img" src="./assets/img/ActiveStay.PNG" alt="active stay application" />
                 </div>
                 <div class="project-content">
-                    <a href="https://bdufff2.github.io/Active-Stay/" target="_blank">
-                        <h1>Active Stay</h1>
-                    </a>
+
+                    <h1>Active Stay</h1>
+
 
                     <p>An application built to show users where they can find hiking trails and weather information nearby.
                     </p>
-                    <a href="https://github.com/Bdufff2/Active-Stay" target="_blank"></a><span class="fas fa-code fa-2x"></span></a>
+                    <a href="https://bdufff2.github.io/Active-Stay/" target="_blank">
+                        <p class="project-link">
+                            <strong>Check it out!</strong>
+                        </p>
+                    </a>
                 </div>
             </div>
 
@@ -114,12 +132,17 @@
                     <img class="project-img" src="./assets/img/runtracker.PNG" alt="run tracker application" />
                 </div>
                 <div class="project-content">
-                    <a href="https://bdufff2.github.io/Active-Stay/" target="_blank">
-                        <h1>Run Tracker</h1>
-                    </a>
+
+                    <h1>Run Tracker</h1>
+
 
                     <p>A system for logging workout data and tracking progress over time.</p>
-                    <!-- <a href="https://github.com/Bdufff2/Active-Stay" target="_blank"></a><span class="fas fa-code fa-2x"></span></a> -->
+
+                    <a href="https://runtracker-app.herokuapp.com/" target="_blank">
+                        <p class="project-link">
+                            <strong>Check it out!</strong>
+                        </p>
+                    </a>
                 </div>
             </div>
 
@@ -128,28 +151,62 @@
                     <img class="project-img" src="./assets/img/petfinder.PNG" alt="pet finder application" />
                 </div>
                 <div class="project-content">
-                    <a href="https://bdufff2.github.io/Active-Stay/" target="_blank">
+                    <div>
                         <h1>PetFinder-SD</h1>
-                    </a>
+                    </div>
+                    <div>
+                        <p>A consumer to consumer marketplace geared toward keeping local pets out of the shelter and in loving
+                            homes.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://pet-finder-sd.herokuapp.com/" target="_blank">
+                            <p class="project-link">
+                                <strong>Check it out!</strong>
+                            </p>
+                        </a>
+                    </div>
 
-                    <p>A consumer to consumer marketplace geared toward keeping local pets out of the shelter and in loving
-                        homes.
-                    </p>
-                    <!-- <a href="https://github.com/Bdufff2/Active-Stay" target="_blank"></a><span class="fas fa-code fa-2x"></span></a> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <hr>
-    <section>
+    <!-- <hr>
+    <section id="contact-me">
         <div class="title-2">
             <h3>Contact Me</h3>
         </div>
+        <div>
+            <p>Interested in working together? Fill out the form below.</p>
+        </div>
         <form>
-
+            <label>
+                First Name
+                <input type="text" name="fname" required>
+            </label>
+            <label>
+                Last Name
+                <input type="text" name="lname" required>
+            </label>
+            <label>
+                Email
+                <input type="text" name="email" required>
+            </label>
+            <label>
+                Reason for reaching out
+                <select name="reason">
+                    <option>Project Request</option>
+                    <option>Saying Hello!</option>
+                </select>
+            </label>
+            <label>
+                Message:
+                <textarea name="msg" required></textarea>
+            </label>
+            <input type="submit" name="send-it">
         </form>
-    </section>
+    </section> -->
     <!-- Footer -->
     <footer>
         <p>Made from scratch by Brian Duff</p>
