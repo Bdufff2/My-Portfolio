@@ -10,6 +10,16 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="apple-touch-icon" href="./assets/img/pixlr-img.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116298991-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-116298991-1');
+    </script>
+
     <title>Brian Duff | Designer &amp; Developer</title>
 </head>
 
@@ -57,7 +67,8 @@
                         <br/>
                         <p class="center-text">My name is
                             <span class="green-fade">Brian Duff</span> and I am a Full-Stack Developer based out of
-                            <span class="green-fade">San Diego, </span> <span class="green-fade">California</span>. In everything I create I aim to find a balance between artistic expression
+                            <span class="green-fade">San Diego, </span>
+                            <span class="green-fade">California</span>. In everything I create I aim to find a balance between artistic expression
                             and technology to create engaging digital experiences. I have a background in
                             <span class="green-fade">business</span>
                             <span class="green-fade">analysis</span> and I bring that sense of end-user oriented mentality into all of my work.</p>
@@ -172,41 +183,51 @@
         </div>
     </section>
 
-    <!-- <hr>
+    <hr>
     <section id="contact-me">
         <div class="title-black">
             <h3>Contact Me</h3>
         </div>
-        <div>
-            <p>Interested in working together? Fill out the form below.</p>
+        <div class="form-container">
+            <div>
+                <p>Interested in working together? Fill out the form below.</p>
+            </div>
+            <form>
+                <label>
+                    First Name
+                    <input type="text" name="fname" required>
+                </label>
+                <br/>
+                <label>
+                    Last Name
+                    <input type="text" name="lname" required>
+                </label>
+                <br/>
+                <label>
+                    Email
+                    <input type="text" name="email" required>
+                </label>
+                <br/>
+                <label>
+                    Reason for reaching out
+                    <select name="reason">
+                        <option>Select One</option>
+                        <option>Project Request</option>
+                        <option>Saying Hello!</option>
+                    </select>
+                </label>
+                <br/>
+                <label>
+                    Message:
+                    <textarea name="msg" required></textarea>
+                </label>
+                <br/>
+                <br/>
+                <input type="submit" name="send-it">
+            </form>
         </div>
-        <form>
-            <label>
-                First Name
-                <input type="text" name="fname" required>
-            </label>
-            <label>
-                Last Name
-                <input type="text" name="lname" required>
-            </label>
-            <label>
-                Email
-                <input type="text" name="email" required>
-            </label>
-            <label>
-                Reason for reaching out
-                <select name="reason">
-                    <option>Project Request</option>
-                    <option>Saying Hello!</option>
-                </select>
-            </label>
-            <label>
-                Message:
-                <textarea name="msg" required></textarea>
-            </label>
-            <input type="submit" name="send-it">
-        </form>
-    </section> -->
+
+    </section>
     <!-- Footer -->
     <footer>
         <p>Made from scratch by Brian Duff</p>
